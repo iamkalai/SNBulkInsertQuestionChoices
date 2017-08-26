@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-08-26 05:48:38">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Bulk Insert Question Choices - All the components are new and nothing out of box was altered.
+This adds a records producer and related variables. Also adds a button on variable table for ease of usage.</description>
+<inserted/>
+<name>BulkInsertQuestionChoices-V1.0</name>
+<origin_sys_id/>
+<release_date/>
+<remote_sys_id>ecb02b44db28c700d8ccd421cf961922</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>698dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_ba6c1718db2cc700d8ccd421cf96193c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Options">2cd06b44db28c700d8ccd421cf96194e</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>true</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_insertion_mode</name><order>10</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Insertion Mode</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>question_choice</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:27:48</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>ba6c1718db2cc700d8ccd421cf96193c</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Insertion Mode</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_ba6c1718db2cc700d8ccd421cf96193c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:56:17</sys_updated_on><table/><tooltip/><type>5</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=ba6c1718db2cc700d8ccd421cf96193c"/></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>218dc6b5dbb08300d8ccd421cf9619c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Insertion Mode</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_96dfe085dba40b00d8ccd421cf96198c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;bulk_insert_choices&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;comments&gt;Insert Question Choices In Bulk&lt;/comments&gt;&lt;condition&gt;gs.hasRole('admin') &amp;amp;&amp;amp; current.type == 5&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;hint&gt;Insert Question Choices In Bulk&lt;/hint&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;name&gt;Add Choices&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;-100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL('com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2cd06b44db28c700d8ccd421cf96194e&amp;sysparm_u_variable='+current.sys_id);
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-11 04:48:12&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;96dfe085dba40b00d8ccd421cf96198c&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Choices&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_96dfe085dba40b00d8ccd421cf96198c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-11 05:56:01&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>258dc6b5dbb08300d8ccd421cf9619c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table>item_option_new</table>
+<target_name>Add Choices</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_61c2ef58db2cc700d8ccd421cf9619a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Options">2cd06b44db28c700d8ccd421cf96194e</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_variable_container_end</name><order>25</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text/><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>question_choice</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:54:30</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>61c2ef58db2cc700d8ccd421cf9619a6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_variable_container_end</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_61c2ef58db2cc700d8ccd421cf9619a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:55:36</sys_updated_on><table/><tooltip/><type>20</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=61c2ef58db2cc700d8ccd421cf9619a6"/></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>2d8dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name/>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_7a52ef18db2cc700d8ccd421cf961911</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>110</order><question display_value="Insertion Mode">ba6c1718db2cc700d8ccd421cf96193c</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7a52ef18db2cc700d8ccd421cf961911</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insert As Is</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_7a52ef18db2cc700d8ccd421cf961911</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><text>Insert As Is</text><value>insert_as_is</value></question_choice><fx_price action="delete_multiple" query="id=7a52ef18db2cc700d8ccd421cf961911"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>7a52ef18db2cc700d8ccd421cf961911</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_id>be52ef18db2cc700d8ccd421cf961911</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>7a52ef18db2cc700d8ccd421cf961911</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_id>3e52ef18db2cc700d8ccd421cf961911</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>618dc6b5dbb08300d8ccd421cf9619c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Insert As Is</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_62b16b44db28c700d8ccd421cf961951</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Options">2cd06b44db28c700d8ccd421cf96194e</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text>Add choices separated by newline.&#13;
+Alphanumeric, (, ), - and space are allowed characters.&#13;
+</help_text><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_variable_options</name><order>30</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Choices</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>question_choice</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>true</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-08 15:12:23</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>62b16b44db28c700d8ccd421cf961951</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Choices</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_62b16b44db28c700d8ccd421cf961951</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-11 05:27:58</sys_updated_on><table/><tooltip/><type>2</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=62b16b44db28c700d8ccd421cf961951"/></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>6d8dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Choices</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>question_choice_be52ef18db2cc700d8ccd421cf961910</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Insertion Mode">ba6c1718db2cc700d8ccd421cf96193c</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>be52ef18db2cc700d8ccd421cf961910</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Alphabetically&#13;</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>question_choice_be52ef18db2cc700d8ccd421cf961910</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><text>Alphabetically&#13;</text><value>alphabetically</value></question_choice><fx_price action="delete_multiple" query="id=be52ef18db2cc700d8ccd421cf961910"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>be52ef18db2cc700d8ccd421cf961910</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_id>f252ef18db2cc700d8ccd421cf961911</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>be52ef18db2cc700d8ccd421cf961910</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:52:41</sys_created_on><sys_id>7252ef18db2cc700d8ccd421cf961911</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:52:41</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>a18dc6b5dbb08300d8ccd421cf9619c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Alphabetically</target_name>
+<type>Question Choice</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_7d82ef14db2cc700d8ccd421cf961948</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Options">2cd06b44db28c700d8ccd421cf96194e</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_variable_container_start</name><order>0</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Variable Container Start</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>question_choice</record_producer_table><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-09 09:54:08</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>7d82ef14db2cc700d8ccd421cf961948</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Variable Container Start</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_7d82ef14db2cc700d8ccd421cf961948</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:55:14</sys_updated_on><table/><tooltip/><type>19</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=7d82ef14db2cc700d8ccd421cf961948"/></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>ad8dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Variable Container Start</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sc_cat_item_producer_2cd06b44db28c700d8ccd421cf96194e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;entitlement_script/&gt;&lt;group/&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0.00&lt;/list_price&gt;&lt;location/&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Add Options&lt;/name&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=2cd06b44db28c700d8ccd421cf96194e&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0.00&lt;/price&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0.00&lt;/recurring_price&gt;&lt;roles/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;script&gt;&lt;![CDATA[var startOrder = 100;
+var orderIncrement = 10;
+
+var question = producer.u_variable;
+var optionText = (producer.u_variable_options.toString()).toLowerCase();
+optionText = (optionText.replace(/[^\w\s()-]/gi, ''));
+
+var options =  optionText.split('\n');
+var captitalizedOption = [];
+
+if(producer.u_insertion_mode == 'alphabetically')
+	options.sort();
+
+for(var i=0;i&lt;options.length;i++)
+	{
+	var insertVariable = new GlideRecord('question_choice');
+	insertVariable.initialize();
+	insertVariable.question = question;
+	insertVariable.order = startOrder;
+	insertVariable.value = options[i].trim().replace(/[^\w]/gi,'_');
+	
+	captitalizedOption = options[i].split(' ');
+	for (var j = 0; j &lt; captitalizedOption.length; j++) {
+		captitalizedOption[j] = captitalizedOption[j].charAt(0).toUpperCase() + captitalizedOption[j].substring(1);
+	}
+	captitalizedOption = captitalizedOption.join(' ');
+	insertVariable.text = captitalizedOption;
+	
+	insertVariable.insert();
+	captitalizedOption = [];
+	startOrder += orderIncrement;
+}
+
+current.setAbortAction(true);
+gs.setRedirect(producer.u_variable.getRefRecord().getLink());
+gs.addInfoMessage('Choices are added.');
+
+]]&gt;&lt;/script&gt;&lt;short_description&gt;Create Choices For Select Box&lt;/short_description&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-08 15:08:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_id&gt;2cd06b44db28c700d8ccd421cf96194e&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Options&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_2cd06b44db28c700d8ccd421cf96194e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-11 05:37:02&lt;/sys_updated_on&gt;&lt;table_name&gt;question_choice&lt;/table_name&gt;&lt;template/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2cd06b44db28c700d8ccd421cf96194e"/&gt;&lt;fx_price action="delete_multiple" query="id=2cd06b44db28c700d8ccd421cf96194e"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;2cd06b44db28c700d8ccd421cf96194e&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-08 15:08:49&lt;/sys_created_on&gt;&lt;sys_id&gt;8c212b44db28c700d8ccd421cf961925&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-08 15:08:49&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="INR"&gt;INR&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;2cd06b44db28c700d8ccd421cf96194e&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-08 15:08:49&lt;/sys_created_on&gt;&lt;sys_id&gt;80212b44db28c700d8ccd421cf961926&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-08 15:08:49&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>e18dc6b5dbb08300d8ccd421cf9619c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table>question_choice</table>
+<target_name>Add Options</target_name>
+<type>Record Producer</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_8e72b8c5dba40b00d8ccd421cf9619b5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Add Options"&gt;2cd06b44db28c700d8ccd421cf96194e&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;messages/&gt;&lt;name&gt;AO-AutoPopulate-URL-Parameters&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	//Use the 'getParameterValue' function below to get the parameter values from the URL
+	var variable = getParameterValue('sysparm_u_variable');
+	if (variable) {
+		g_form.setValue('u_variable', variable);
+	}
+}
+
+function getParameterValue(name) {
+	var url = document.URL.parseQuery();
+	if (url[name]) {
+		return decodeURI(url[name]);
+	} else {
+		return;
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-11 05:01:19&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;true&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;8e72b8c5dba40b00d8ccd421cf9619b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AO-AutoPopulate-URL-Parameters&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_8e72b8c5dba40b00d8ccd421cf9619b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-11 05:01:19&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>e98dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>AO-AutoPopulate-URL-Parameters</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_8731a740db28c700d8ccd421cf9619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Add Options">2cd06b44db28c700d8ccd421cf96194e</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_variable</name><order>20</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Variable</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>question_choice</record_producer_table><reference>item_option_new</reference><reference_qual>active=true^type=5^EQ</reference_qual><reference_qual_condition table="item_option_new">active=true^type=5^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="5"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_qual_condition><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-08-08 15:11:11</sys_created_on><sys_customer_update>true</sys_customer_update><sys_id>8731a740db28c700d8ccd421cf9619c4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Variable</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_8731a740db28c700d8ccd421cf9619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-08-09 09:26:27</sys_updated_on><table/><tooltip/><type>8</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=8731a740db28c700d8ccd421cf9619c4"/></record_update>]]></payload>
+<remote_update_set display_value="BulkInsertQuestionChoices-V1.0">698dc6b5dbb08300d8ccd421cf9619bf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-08-26 05:48:37</sys_created_on>
+<sys_id>ed8dc6b5dbb08300d8ccd421cf9619bf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-08-26 05:48:37</sys_updated_on>
+<table/>
+<target_name>Variable</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
